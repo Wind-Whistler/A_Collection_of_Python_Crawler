@@ -15,7 +15,7 @@ headers={
     'User-Agent':'按照你的浏览器来填',
     'cookie':'按照你的浏览器来填'
     }
-for page in range(1,300):
+for page in range(1,100):
   print(f'正在采集第{page}页数据...')
   #请求网址
   url=f'https://shanghai.anjuke.com/sale/p{page}/?from=HomePage_TopBar' #可以自己换别的地区
